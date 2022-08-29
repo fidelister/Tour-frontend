@@ -1,6 +1,12 @@
+//HOW TO HOST ON NETLIFY
+// install netlify cli
+// netlify link
+//netlify deploy --prod
+// netlify build && netlify deploy --prod 
+
 //strictly for just making https requests and setting any data in local storage
 import axios from 'axios';
-const API_URL = 'https://tour-application-backend.herokuapp.com//user/'
+const API_URL = 'https://tour-application-backend-2.herokuapp.com/user/'
 
 
 //register user
